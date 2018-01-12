@@ -5,6 +5,8 @@
  */
 /* FONT PATH
  * -------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -3077,11 +3079,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
   outline: 0;
-  font-style: normal;
-  word-break: normal;
+  border: 0;
   word-wrap: break-word;
+  word-break: normal;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -3111,8 +3113,8 @@ img {
 input,
 select,
 textarea {
-  font-size: 100%;
   vertical-align: middle;
+  font-size: 100%;
 }
 
 ol,
@@ -3127,21 +3129,21 @@ h4,
 h5,
 h6,
 strong {
-  font-feature-settings: "palt";
   letter-spacing: 0.01em;
+  font-feature-settings: "palt";
 }
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 body {
-  -webkit-text-size-adjust: 100%;
-  font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN",YuGothic-M,YuGothic,"游ゴシック",sans-serif;
-  font-size: 14px;
-  line-height: 1.7;
   color: #333;
+  font-size: 14px;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic-M, YuGothic, "游ゴシック", sans-serif;
+  line-height: 1.7;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -3165,6 +3167,6 @@ a:hover img {
 /* clearfix */
 .cf:after {
   display: block;
-  content: "";
   clear: both;
+  content: "";
 }
