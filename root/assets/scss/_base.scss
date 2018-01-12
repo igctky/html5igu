@@ -1,0 +1,25 @@
+body {
+  -webkit-text-size-adjust: 100%;
+  font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN",YuGothic-M,YuGothic,"游ゴシック",sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+a img {
+  transition: opacity 0.5s ease-in-out;
+}
+
+a:hover img {
+  opacity: 0.8;
+}
